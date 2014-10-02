@@ -101,9 +101,8 @@ font-weight:400;
 h5 {
 font-size:15px;
 line-height:1.5714285714286em;
-text-transform:uppercase;
 letter-spacing:1px;
-font-weight:600;
+font-weight:400;
 }
 
 h6 {
@@ -726,6 +725,7 @@ padding:0;
 
 nav.main_menu>ul>li>a,nav.main_menu>ul>li>a {
 display:inline-block;
+font-family:'Open Sans', sans-serif;
 height:100%;
 background-color:transparent;
 -webkit-transition:opacity .3s ease-in-out,color .3s ease-in-out;
@@ -751,7 +751,6 @@ margin-left:6px;
 nav.main_menu>ul>li>a {
 position:relative;
 color:#9d9d9d;
-text-transform:uppercase;
 font-weight:600;
 font-size:13px;
 letter-spacing:1px;
@@ -837,7 +836,6 @@ line-height:16px;
 -o-transition:color .3s ease-in-out;
 transition:color .3s ease-in-out;
 font-size:11px;
-text-transform:uppercase;
 letter-spacing:1px;
 margin:0;
 padding:9px 0;
@@ -855,6 +853,7 @@ padding:0;
 .drop_down .narrow .second .inner ul li a {
 padding-left:20px;
 padding-right:20px;
+margin:5px 0;
 }
 
 .drop_down .second .inner ul li ul {
@@ -922,7 +921,6 @@ float:left;
 .drop_down .wide .second .inner>ul>li>a {
 color:#fff;
 border-bottom:0;
-text-transform:uppercase;
 letter-spacing:1px;
 font-weight:600;
 margin-bottom:7px;
@@ -2077,12 +2075,13 @@ height:38px;
 line-height:38px;
 text-align:center;
 font-size:18px;
-color:#b4b4b4;
+color:#000;
 text-decoration:none;
 text-transform:uppercase;
 cursor:pointer;
 white-space:nowrap;
-border:2px solid #e5e5e5;
+border:2px solid silver;
+background-color:silver;
 outline:0;
 -o-border-radius:4px;
 -moz-border-radius:4px;
